@@ -70,7 +70,7 @@ void search() {
 	int target,flag=0;
 	printf("\nEnter Target Element: ");
 	scanf("%d",&target);
-	for(i=0;i&lt;rear;i++) {
+	for(i=0;i<rear;i++) {
 		if(q[i] == target) {
 			flag=1;
 			break;
