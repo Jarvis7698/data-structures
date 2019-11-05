@@ -46,7 +46,7 @@ void create_list() {
 		}
 	}
 	exists = 1;
-	printf("\nList Created Succesfully!\n");
+	printf("\nList Created Successfully!\n");
 }
 
 // allows user to add a new node at the end of the list;
@@ -59,7 +59,7 @@ void add_node() {
 	// append the fresh node at the end;
 	end->next = born;
 	end = born;
-	printf("\nAdded Succesfully!\n");
+	printf("\nAdded Successfully!\n");
 }
 
 // allows user to delete any data node within the list, if exists;
@@ -100,7 +100,7 @@ void delete_node() {
 			free(ptr);
 		}
 	}
-	printf("\nDeleted Succesfully!\n");
+	printf("\nDeleted Successfully!\n");
 }
 
 // show content of the linked-list;
