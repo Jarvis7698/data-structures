@@ -129,16 +129,16 @@ int main() {
 		/* Switch to user's choice */
 		switch(choice){
 			case 1: if(!exists) create_list();
-					else printf("\nAlread Exists!\n");
+				else printf("\nAlread Exists!\n");
 					break;
 			case 2: if(exists) add_node();
-					else printf("\nCreate A List Please!\n");
+				else printf("\nCreate A List Please!\n");
 					break;
 			case 3: if(exists) delete_node();
-					else printf("\nCreate A List Please!\n");
+				else printf("\nCreate A List Please!\n");
 					break;
 			case 4: if(exists) print_list();
-					else printf("\nCreate A List Please!\n");
+				else printf("\nCreate A List Please!\n");
 					break;
 			case 5: printf("\nExiting...");
 					break;
